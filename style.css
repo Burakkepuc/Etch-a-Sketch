@@ -1,0 +1,26 @@
+:root{
+--grid-rows:1;
+--grid-column:1;
+
+}
+
+
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(var(--grid-column),1fr);
+    grid-template-rows: repeat(var(--grid-rows),1fr);
+    width: 600px;
+    height: 500px;
+    margin:   6em auto 0;
+
+}
+
+.box{
+    border:1px solid rgba(218, 214, 214, 0.925);
+    text-align: center;
+}
+
+.bg-color{
+    background-color: coral;
+}
