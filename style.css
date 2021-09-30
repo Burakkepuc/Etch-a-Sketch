@@ -2,6 +2,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Architects Daughter', cursive;
 }
 
 :root{
@@ -10,9 +11,16 @@
 --main-bg-color: black;
 }
 
+body{
+    background-color: #112031;
+
+}
 h1{
    text-align: center;
-   margin-top: 1em;
+   text-transform: uppercase;
+   position: relative;
+   top: 20px;
+    color: #D4ECDD;
 }
 #content{
     display: flex;
@@ -27,10 +35,20 @@ h1{
 
 }
 .btn{
-    padding: 1em;
     margin: 1em 0;
     width: 150px;
     height: 50px;
+    font-size: 1.2em;
+
+    background-color: #345B63;
+    color: #D4ECDD;
+    border:0;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    box-shadow: 0 0 2px 2px #D4ECDD;
 }
 
 #container{
@@ -41,9 +59,18 @@ h1{
     height: 500px;
 
     margin: 3em auto;
+
+    background-color: white;
 }
 
 .box{
     border:1px solid rgba(218, 214, 214, 0.925);
     text-align: center;
+}
+
+footer{
+    position: relative;
+    bottom:10px;
+    text-align: center;
+    color: #BFD8B8;
 }
