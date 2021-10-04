@@ -8,31 +8,28 @@
 :root{
 --grid-rows:1;
 --grid-column:1;
---main-bg-color: black;
 }
 
 body{
     background-color: #112031;
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 100vh;
 
 }
+
 h1{
    text-align: center;
-   text-transform: uppercase;
-   position: relative;
-   top: 20px;
+   text-transform: uppercase;   
     color: #D4ECDD;
 }
 #content{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin:2em 0 0 10em;
+    flex: 1;
    
 }
 #buttons{
- display: flex;
- flex-direction: column;
- padding-left: 2em;
+ padding:1em
 
 }
 .btn{
@@ -59,7 +56,6 @@ h1{
     width: 600px;
     height: 500px;
 
-    margin: 3em auto;
 
     background-color: white;
 }
@@ -70,8 +66,8 @@ h1{
 }
 
 footer{
-    position: absolute;
-    bottom:10px;
-    left:50%;
     color: #BFD8B8;
+    position: relative;
+    bottom:1em;
+    padding: 1em 1em 0 1em;
 }
