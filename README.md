@@ -48,7 +48,7 @@
      });
 ```
 
+Note:  
+- I just try to tell how to make etch a sketch with javascript basically,not include design or other functions such as button,new game etc. You can find more in the source code.    
 
-I just try to tell how to make etch a sketch with javascript basically,not include design or other functions such as button,new game etc. You can find more in the source code.  
-
-Demo: [Live Preview](https://burakkepuc.github.io/Etch-a-Sketch/)
+Demo: [Live Preview](https://burakkepuc.github.io/Etch-a-Sketch/):point_left:
